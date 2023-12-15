@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forms</title>
+    <style>
+        body
+        {
+            background-color: rgba(0, 119, 255, 0.359);
+        }
+        input
+        {
+            width: 200px;
+        }
+        .class1
+        {   
+            border: 2px solid rgba(0, 4, 255, 0.953);
+            border-radius: 10px;
+            background-color: white;       
+        }
+        .text:hover
+        {   
+            background-color: white;
+        }
+        .submit
+        {
+            background-color: rgba(0, 119, 255, 0.625);
+            height: 30px;
+            width: 300px;
+            border: 3px solid black;
+            border-radius: 10px;
+        }
+        .submit:hover
+        {
+            color: #F8DE22;
+            background-color: rgba(0, 4, 255, 0.627);
+            border-radius: 10px;
+        }
+        .submit:focus
+        {
+            background-color: red;
+        }
+        .form
+        {
+            border: 3px solid black;
+            border-radius: 20px;
+            text-align: center;
+            width: 30%;
+            background-color: rgba(0, 64, 255, 0.281);
+            padding-top: 50px;
+            padding-right: 50px;
+            padding-bottom: 50px;
+            padding-left: 50px;
+            margin-top: 175px;
+            margin-left: 475px;
+        }
+        .form:hover
+        {
+            padding-top: 48px;
+            padding-left: 48px;
+            border: 5px solid black;
+        }
+        label
+        {
+            font-size: 20px;
+        }
+        select
+        {
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+    <form method="get">
+        <label for="name">Name:</label>
+        <input class="class1" type="text" id="name" name="name">
+        <br>
+        <br>
+        <label for="pinno">Pin.no.:</label>
+        <input class="class1" type="text" id="pinno" name="pinno">
+        <br>
+        <br>
+        <label for="cgpa">CGPA: </lable>
+        <input class="class1" type="text" id="cgpa" name="CGPA">
+        <br>
+        <br>
+        <p>Year</p>
+        <input type="radio" id="year1" name="year">
+        <label for="year1">1st Year</label>
+        <input type="radio" id="year2" name="year">
+        <label for="year2">2nd Year</label>
+        <input type="radio" id="year3"name="year">
+        <label for="year3">3rd Year</label>
+        <br>
+        <br>
+        <select name="AGE">
+            <option>Select Age</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>20+</option>
+        </select>
+        <br>
+        <br>
+        <input class="submit" type="submit">
+    </form>
+    </div>
+</body>
+</html>
