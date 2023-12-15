@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IMAGHE MAPPING</title>
+        <style>
+            body
+            {
+                background-color: firebrick;
+            }
+            p
+            {
+                font-size: 50px;
+                color: rgb(233, 165, 7);
+                background-color: rgba(13, 32, 206, 0.755);
+                text-align: center;
+                border: 10px solid rgb(233, 165, 7);
+                border-radius: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <p>India Players List</p>
+        <img src="Image_mapping1.jpg"  usemap="#image_map">
+        <map name="image_map">  
+            <area alt="Rohit Sharma" title="Rohit Sharma" href="https://en.wikipedia.org/wiki/Rohit_Sharma" coords="40,185,226,408" shape="rect" target="_blank">
+            <area alt="Sheryas Iyer" title="Sheryas Iyer" href="https://en.wikipedia.org/wiki/Shreyas_Iyer" coords="248,175,444,402" shape="rect" target="_blank">
+            <area alt="Shubman Gill" title="Shubman Gill" href="https://en.wikipedia.org/wiki/Shubman_Gill" coords="478,178,669,401" shape="rect" target="_blank">
+            <area alt="Surya Kumar Yadav" title="Surya Kumar Yadav" href="https://en.wikipedia.org/wiki/Suryakumar_Yadav" coords="693,180,895,406" shape="rect" target="_blank">
+            <area alt="Virat Kohli" title="Virat Kohli" href="https://en.wikipedia.org/wiki/Virat_Kohli" coords="913,179,1097,406" shape="rect" target="_blank">
+            <area alt="Ishan Kishan" title="Ishan Kishan" href="https://en.wikipedia.org/wiki/Ishan_Kishan" coords="39,412,223,639" shape="rect" target="_blank">
+            <area alt="KL Rahul" title="KL Rahul" href="https://en.wikipedia.org/wiki/KL_Rahul" coords="255,410,451,647" shape="rect" target="_blank">
+            <area alt="Rishab Pant" title="Rishab Pant" href="https://en.wikipedia.org/wiki/Rishabh_Pant" coords="473,410,666,644" shape="redt" target="_blank">
+            <area alt="Axar Patel" title="Axar Patel" href="https://en.wikipedia.org/wiki/Axar_Patel" coords="691,410,899,640" shapr="rect" target="_blank">
+            <area alt="Hardik Pandya" title="Hardik Pandya" href="https://en.wikipedia.org/wiki/Hardik_Pandya" coords="913,410,1097,640" shape="parent" target="_blank">
+            <area alt="Ravindra Jadeja" title="Ravindra Jadeja" href="https://en.wikipedia.org/wiki/Ravindra_Jadeja" coords="40,649,221,883" shape="rect" target="_blank">
+            <area alt="Washington Sundar" title="Washington Sundar" href="https://en.wikipedia.org/wiki/Washington_Sundar" coords="257,654,444,879" shape="rect" target="_blank">
+            <area alt="Arshdeep Singh" title="Arshdeep Singh" href="https://en.wikipedia.org/wiki/Arshdeep_Singh_(cricketer)" coords="472,657,663,877" shape="rect" target="_blank">
+            <area alt="Jasprit Bumrah" title="Jasprit Bumrah" href="https://en.wikipedia.org/wiki/Jasprit_Bumrah" coords="691,658,883,876" shape="rect" target="_blank">
+            <area alt="Kuldeep Yadav" title="Kuldeep Yadav" href="https://en.wikipedia.org/wiki/Kuldeep_Yadav" coords="910,659,1109,880" shape="rect" target="_blank">
+            <area alt="Mohammed Shami" title="Mohammed Shami" href="https://en.wikipedia.org/wiki/Mohammed_Shami" coords="39,891,222,1116" shape="rect" target="_blank">
+            <area alt="Mohammed Siraj" title="Mohammed Siraj" href="https://en.wikipedia.org/wiki/Mohammed_Siraj" coords="257,890,444,1113" shape="rect" target="_blank">
+            <area alt="Prasidh Krishna" title="Prasidh Krishna" href="https://en.wikipedia.org/wiki/Prasidh_Krishna#:~:text=Muralikrishna%20Prasidh%20Krishna%20(born%2019,%2Darm%20fast%2Dmedium%20bowler." coords="473,894,664,1111" shape="rect" target="_blank">
+            <area alt="Umran Malik" title="Umran Malik" href="https://en.wikipedia.org/wiki/Umran_Malik" coords="691,895,885,1108" shape="rect" target="_blank">
+            <area alt="Yuzvendra Chahal" title="Yuzvendra Chahal" href="https://en.wikipedia.org/wiki/Yuzvendra_Chahal" coords="910,890,1106,1117" shape="rect" target="_blank">
+        </map>
+    </body>
+</html>
